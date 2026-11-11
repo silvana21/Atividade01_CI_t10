@@ -94,8 +94,8 @@ nav ul li a:hover {
 
 .botao {
     display: inline-block;
-    background: #22c55e;
-    color: white;
+    background: #c81ec8;
+    color: rgb(250, 250, 250);
     padding: 14px 28px;
     text-decoration: none;
     border-radius: 6px;
