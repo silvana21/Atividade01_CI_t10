@@ -1,22 +1,33 @@
 # Web Academy Portal
 
-Bem-vindo ao **Web Academy Portal**!
+Página institucional simples utilizada na disciplina **Integração Contínua** do curso **Web Academy**.
 
-Este projeto consiste em uma página institucional simples desenvolvida para ser utilizada durante a disciplina **Integração Contínua**, do curso **Web Academy**.
+O objetivo do projeto **não é construir uma aplicação completa**, e sim servir como base para simular o dia a dia de uma equipe de desenvolvimento de software, praticando colaboração, controle de versões e automação do fluxo de entrega.
 
-O objetivo não é desenvolver uma aplicação completa, mas sim simular o fluxo de trabalho de uma equipe de desenvolvimento de software utilizando boas práticas de colaboração.
+---
 
-Ao longo da disciplina, este projeto será utilizado para demonstrar conceitos como:
+## Sobre a Disciplina
 
-- Desenvolvimento Colaborativo;
-- Trunk-Based Development (TBD);
-- Controle de Versões;
-- Commits pequenos e frequentes;
-- Integração Contínua (Continuous Integration);
-- GitHub Actions;
-- Docker;
-- Continuous Delivery;
-- Continuous Deployment.
+Ao longo da disciplina, este repositório será usado para demonstrar na prática os seguintes conceitos:
+
+- Desenvolvimento colaborativo
+- Trunk-Based Development (TBD)
+- Controle de versões com Git
+- Commits pequenos e frequentes
+- Integração Contínua (CI)
+- GitHub Actions
+- Docker
+- Entrega Contínua (Continuous Delivery)
+- Implantação Contínua (Continuous Deployment)
+
+---
+
+## Tecnologias
+
+- HTML5
+- CSS3
+
+O conteúdo da página é propositalmente simples, para que o foco fique no **processo** de desenvolvimento e não na complexidade do código.
 
 ---
 
@@ -24,50 +35,56 @@ Ao longo da disciplina, este projeto será utilizado para demonstrar conceitos c
 
 ```
 webacademy-portal/
-
-├── index.html
-├── style.css
-├── README.md
-├── LICENSE
-└── .gitignore
+├── index.html    # Página principal
+├── style.css     # Estilos da página
+├── README.md     # Documentação do projeto
+├── LICENSE       # Licença MIT
+└── .gitignore    # Arquivos ignorados pelo Git
 ```
 
 ---
 
-## Tecnologias Utilizadas
+## Como Executar
 
-- HTML5
-- CSS3
+Como o projeto utiliza apenas HTML e CSS, não é necessário instalar dependências:
 
----
-
-## Organização da Equipe
-
-Cada integrante da equipe recebe pequenas tarefas para implementar.
-
-As alterações devem ser:
-
-- Pequenas;
-- Frequentes;
-- Simples de revisar;
-- Integradas rapidamente ao projeto.
-
-Durante a disciplina serão simuladas situações reais encontradas em equipes de desenvolvimento de software.
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repositorio>
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd webacademy-portal
+   ```
+3. Abra o arquivo `index.html` no navegador.
 
 ---
 
-## Objetivo da Dinâmica
+## Como Trabalhar em Equipe
 
-Ao final da atividade os participantes deverão compreender:
+Cada integrante receberá pequenas tarefas para implementar. As alterações devem ser:
 
-- como equipes trabalham colaborativamente;
-- por que integrar frequentemente reduz conflitos;
-- a importância de alterações pequenas;
-- como funciona o fluxo de integração de código;
-- por que Integração Contínua depende de boas práticas de desenvolvimento.
+- **Pequenas**: focadas em uma única mudança
+- **Frequentes**: integradas várias vezes ao dia
+- **Fáceis de revisar**: que outra pessoa entenda rapidamente
+- **Integradas rapidamente**: sem deixar o código "parado" em branches longas
+
+Durante a disciplina, serão simuladas situações reais do cotidiano de equipes de software, como conflitos de merge, falhas em pipelines e revisões de código.
+
+---
+
+## Objetivos de Aprendizagem
+
+Ao final da atividade, você deverá ser capaz de:
+
+- Explicar como equipes trabalham de forma colaborativa
+- Justificar por que integrar com frequência reduz conflitos
+- Reconhecer a importância de alterações pequenas
+- Descrever o fluxo de integração de código
+- Relacionar a Integração Contínua com as boas práticas de desenvolvimento
 
 ---
 
 ## Licença
 
-Este projeto está disponível sob a licença MIT.
+Este projeto está disponível sob a licença [MIT](LICENSE).
