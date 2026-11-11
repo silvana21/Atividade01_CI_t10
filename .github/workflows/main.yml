@@ -1,0 +1,35 @@
+
+name: Validação do Projeto
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+
+jobs:
+  verificar-projeto:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v5
+
+      - name: Informações do repositório
+        run: |
+          echo "Repositório: ${{ github.repository }}"
+          echo "Usuário: ${{ github.actor }}"
+
+      - name: Listar arquivos
+        run: ls -la
+
+      - name: Verificar index.php
+        run: |
+          if [ -f index.php ]; then
+            echo "index encontrado!"
+          else
+            echo "ERRO: index não encontrado!"
+            exit 1
+          fi
+
+      - name: Finalizar validação
+        run: echo "Validação concluída com sucesso!"
