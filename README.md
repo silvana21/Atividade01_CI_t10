@@ -28,8 +28,23 @@ Ao longo da disciplina, este repositório será usado para demonstrar na prátic
 - CSS3
 
 O conteúdo da página é propositalmente simples, para que o foco fique no **processo** de desenvolvimento e não na complexidade do código.
+O Web Academy Portal é um projeto institucional desenvolvido como parte da disciplina de **Integração Contínua**, do curso Web Academy. Seu propósito é servir como ambiente prático para aplicar conceitos, ferramentas e boas práticas utilizadas no desenvolvimento de software em equipe.
 
----
+Mais do que construir uma aplicação completa, a proposta é simular o fluxo de trabalho de uma equipe de desenvolvimento, desde a implementação de pequenas funcionalidades até a integração e entrega contínua de código.
+
+## Objetivos do Projeto
+
+Durante o desenvolvimento, serão exploradas práticas fundamentais da Engenharia de Software, incluindo:
+
+- **Desenvolvimento Colaborativo:** organização e divisão de tarefas entre os integrantes da equipe.
+- **Trunk-Based Development (TBD):** integração frequente das alterações em uma branch principal.
+- **Controle de Versão:** utilização do Git e GitHub para acompanhar e gerenciar mudanças no código.
+- **Commits Pequenos e Frequentes:** registro de alterações específicas, facilitando a revisão e a identificação de problemas.
+- **Integração Contínua (CI):** automatização de verificações para garantir a qualidade do código.
+- **GitHub Actions:** criação e execução de fluxos automatizados.
+- **Docker:** utilização de containers para padronizar ambientes de execução.
+- **Continuous Delivery:** preparação automatizada do projeto para disponibilização.
+- **Continuous Deployment:** automatização do processo de publicação de novas versões.
 
 ## Estrutura do Projeto
 
@@ -71,7 +86,12 @@ Cada integrante receberá pequenas tarefas para implementar. As alterações dev
 
 Durante a disciplina, serão simuladas situações reais do cotidiano de equipes de software, como conflitos de merge, falhas em pipelines e revisões de código.
 
----
+- Divisão clara das atividades entre os integrantes.
+- Implementação de alterações pequenas e objetivas.
+- Commits frequentes com mensagens descritivas.
+- Integração contínua das alterações na branch principal.
+- Revisão e acompanhamento das modificações.
+- Identificação e correção rápida de possíveis problemas.
 
 ## Objetivos de Aprendizagem
 
@@ -83,7 +103,13 @@ Ao final da atividade, você deverá ser capaz de:
 - Descrever o fluxo de integração de código
 - Relacionar a Integração Contínua com as boas práticas de desenvolvimento
 
----
+- Compreender como funciona o desenvolvimento colaborativo em equipes.
+- Aplicar estratégias de organização e integração de código.
+- Entender a importância de integrar alterações frequentemente.
+- Utilizar Git e GitHub no gerenciamento de versões.
+- Configurar e compreender pipelines de Integração Contínua.
+- Automatizar etapas de verificação, construção e publicação de aplicações.
+- Reconhecer a importância da automação na qualidade e entrega de software.
 
 ## Licença
 
