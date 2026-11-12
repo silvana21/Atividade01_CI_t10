@@ -94,8 +94,8 @@ nav ul li a:hover {
 
 .botao {
     display: inline-block;
-    background: #b91c1c;
-    color: white;
+    background: #c81ec8;
+    color: rgb(250, 250, 250);
     padding: 14px 28px;
     text-decoration: none;
     border-radius: 6px;
@@ -180,6 +180,22 @@ footer {
 ====================================================== */
 
 @media (max-width: 768px) {
+
+    section {
+    padding: 0px 0;
+    }
+
+    section h2 {
+        margin-bottom: 0px;
+    }
+
+    section p {
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        padding: 35px 10px;
+    }
 
     header h1 {
         font-size: 32px;
