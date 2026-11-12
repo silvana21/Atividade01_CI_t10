@@ -181,6 +181,22 @@ footer {
 
 @media (max-width: 768px) {
 
+    section {
+    padding: 0px 0;
+    }
+
+    section h2 {
+        margin-bottom: 0px;
+    }
+
+    section p {
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        padding: 35px 10px;
+    }
+
     header h1 {
         font-size: 32px;
     }
