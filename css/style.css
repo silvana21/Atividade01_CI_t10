@@ -135,20 +135,23 @@ section p {
 
 .card {
     background: white;
-    width: 300px;
+    width: 350px;
     padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(51, 1, 191, 0.08);
     transition: .3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+    box-shadow: 0 2px 6px #0400f133;
+    border-radius: 12px;
 }
 
 .card h3 {
     color: #2563eb;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 /* ======================================================
