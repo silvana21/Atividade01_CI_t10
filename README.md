@@ -2,76 +2,76 @@
 
 Bem-vindo ao **Web Academy Portal**!
 
-Este projeto consiste em uma página institucional simples desenvolvida para ser utilizada durante a disciplina **Integração Contínua**, do curso **Web Academy**.
+O Web Academy Portal é um projeto institucional desenvolvido como parte da disciplina de **Integração Contínua**, do curso Web Academy. Seu propósito é servir como ambiente prático para aplicar conceitos, ferramentas e boas práticas utilizadas no desenvolvimento de software em equipe.
 
-O objetivo não é desenvolver uma aplicação completa, mas sim simular o fluxo de trabalho de uma equipe de desenvolvimento de software utilizando boas práticas de colaboração.
+Mais do que construir uma aplicação completa, a proposta é simular o fluxo de trabalho de uma equipe de desenvolvimento, desde a implementação de pequenas funcionalidades até a integração e entrega contínua de código.
 
-## Duração
+## Objetivos do Projeto
 
-Esta matéria é ministrada ao longo de **quatro dias**, com conteúdo distribuído de forma progressiva para facilitar o aprendizado.
+Durante o desenvolvimento, serão exploradas práticas fundamentais da Engenharia de Software, incluindo:
 
-Ao longo da disciplina, este projeto será utilizado para demonstrar conceitos como:
-
-- Desenvolvimento Colaborativo;
-- Trunk-Based Development (TBD);
-- Controle de Versões;
-- Commits pequenos e frequentes;
-- Integração Contínua (Continuous Integration);
-- GitHub Actions;
-- Docker;
-- Continuous Delivery;
-- Continuous Deployment.
-
----
+- **Desenvolvimento Colaborativo:** organização e divisão de tarefas entre os integrantes da equipe.
+- **Trunk-Based Development (TBD):** integração frequente das alterações em uma branch principal.
+- **Controle de Versão:** utilização do Git e GitHub para acompanhar e gerenciar mudanças no código.
+- **Commits Pequenos e Frequentes:** registro de alterações específicas, facilitando a revisão e a identificação de problemas.
+- **Integração Contínua (CI):** automatização de verificações para garantir a qualidade do código.
+- **GitHub Actions:** criação e execução de fluxos automatizados.
+- **Docker:** utilização de containers para padronizar ambientes de execução.
+- **Continuous Delivery:** preparação automatizada do projeto para disponibilização.
+- **Continuous Deployment:** automatização do processo de publicação de novas versões.
 
 ## Estrutura do Projeto
 
-```
+O projeto possui uma estrutura inicial simples, organizada para facilitar a manutenção e a colaboração:
+
+```text
 webacademy-portal/
-
-├── index.html
-├── style.css
-├── README.md
-├── LICENSE
-└── .gitignore
+│
+├── index.html       # Estrutura principal da página
+├── style.css        # Estilização e identidade visual
+├── README.md        # Documentação do projeto
+├── LICENSE          # Licença de utilização
+└── .gitignore       # Arquivos ignorados pelo Git
 ```
-
----
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+As tecnologias utilizadas na estrutura inicial do projeto são:
 
----
+- **HTML5:** responsável pela estruturação e organização do conteúdo da página.
+- **CSS3:** utilizado para estilização, layout e apresentação visual.
 
-## Organização da Equipe
+Ao longo da disciplina, outras ferramentas e tecnologias serão incorporadas conforme as atividades propostas.
 
-Cada integrante da equipe recebe pequenas tarefas para implementar.
+## Organização e Colaboração da Equipe
 
-As alterações devem ser:
+O desenvolvimento será realizado de forma colaborativa, com cada integrante responsável por pequenas tarefas e melhorias no projeto.
 
-- Pequenas;
-- Frequentes;
-- Simples de revisar;
-- Integradas rapidamente ao projeto.
+Para manter um fluxo de trabalho organizado, serão adotadas as seguintes práticas:
 
-Durante a disciplina serão simuladas situações reais encontradas em equipes de desenvolvimento de software.
+- Divisão clara das atividades entre os integrantes.
+- Implementação de alterações pequenas e objetivas.
+- Commits frequentes com mensagens descritivas.
+- Integração contínua das alterações na branch principal.
+- Revisão e acompanhamento das modificações.
+- Identificação e correção rápida de possíveis problemas.
 
----
+Essa abordagem busca reduzir conflitos de código, facilitar a manutenção e tornar o processo de desenvolvimento mais eficiente.
 
-## Objetivo da Dinâmica
+## Resultados Esperados
 
-Ao final da atividade os participantes deverão compreender:
+Ao final da disciplina, espera-se que os participantes sejam capazes de:
 
-- como equipes trabalham colaborativamente;
-- por que integrar frequentemente reduz conflitos;
-- a importância de alterações pequenas;
-- como funciona o fluxo de integração de código;
-- por que Integração Contínua depende de boas práticas de desenvolvimento.
-
----
+- Compreender como funciona o desenvolvimento colaborativo em equipes.
+- Aplicar estratégias de organização e integração de código.
+- Entender a importância de integrar alterações frequentemente.
+- Utilizar Git e GitHub no gerenciamento de versões.
+- Configurar e compreender pipelines de Integração Contínua.
+- Automatizar etapas de verificação, construção e publicação de aplicações.
+- Reconhecer a importância da automação na qualidade e entrega de software.
 
 ## Licença
 
-Este projeto está disponível sob a licença MIT.
+Este projeto está disponibilizado sob a licença **MIT**, permitindo seu uso, modificação e distribuição, respeitando as condições estabelecidas pela licença.
+
+Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
