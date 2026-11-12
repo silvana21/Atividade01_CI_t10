@@ -6,6 +6,10 @@ Este projeto consiste em uma página institucional simples desenvolvida para ser
 
 O objetivo não é desenvolver uma aplicação completa, mas sim simular o fluxo de trabalho de uma equipe de desenvolvimento de software utilizando boas práticas de colaboração.
 
+## Duração
+
+Esta matéria é ministrada ao longo de **quatro dias**, com conteúdo distribuído de forma progressiva para facilitar o aprendizado.
+
 Ao longo da disciplina, este projeto será utilizado para demonstrar conceitos como:
 
 - Desenvolvimento Colaborativo;
