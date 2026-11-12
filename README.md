@@ -47,7 +47,7 @@ Durante o desenvolvimento, serão exploradas práticas fundamentais da Engenhari
 - **Continuous Deployment:** automatização do processo de publicação de novas versões.
 
 ## Estrutura do Projeto
-
+ 
 ```
 webacademy-portal/
 ├── index.html    # Página principal
