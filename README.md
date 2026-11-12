@@ -6,7 +6,7 @@ O objetivo do projeto **não é construir uma aplicação completa**, e sim serv
         
 ---
                  
-## Sobre a Disciplina
+## Sobre 
 
 Ao longo da disciplina, este repositório será usado para demonstrar na prática os seguintes conceitos:
     
