@@ -5,11 +5,11 @@ Página institucional simples utilizada na disciplina **Integração Contínua**
 O objetivo do projeto **não é construir uma aplicação completa**, e sim servir como base para simular o dia a dia de uma equipe de desenvolvimento de software, praticando colaboração, controle de versões e automação do fluxo de entrega.
 
 ---
-
+      
 ## Sobre a Disciplina
 
 Ao longo da disciplina, este repositório será usado para demonstrar na prática os seguintes conceitos:
-
+    
 - Desenvolvimento colaborativo
 - Trunk-Based Development (TBD)
 - Controle de versões com Git
